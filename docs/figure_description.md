@@ -1,0 +1,7 @@
+#### Figure description
+
+* **A) Trajectory over time**. Shows trajectory of animal movement over the entire tracking period.
+* **B) Distribution of step lengths**. Shows the empirical distribution of steps (bars), displacement between consecutive data points across the entire trajectory.
+* **C) Change in mean activity**. Shows Distribution of mean activity, cumulative step count, per time interval where time interval is set by the user (default=20 minutes).
+* **D) Change in distribution of relative turning angles**. Shows the distribution of the relative turning angles between consecutive steps per time interval, where time interval is set by the user (default=10 minutes). Note that relative turning angles depend upon the temporal resolution (i.e., the frame rate or time between successive steps). The upper and lower ends of the boxes represent the 75th and 25th percentiles, and the whiskers depict the extent of the data. The centerline represents the median. 
+* **E) Change in relative direction**. Represents the change in direction between successive steps; these are relative turning angles, with values between -180 and 180 degrees, calculated from the previous bearing of the animals. Data points are the number of counts for each angle value (in degrees). Note that relative turning angles depend upon the temporal resolution (i.e., the frame rate or time between sucessive steps).
