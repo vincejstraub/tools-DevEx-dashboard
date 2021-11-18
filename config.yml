@@ -1,0 +1,128 @@
+FILES:
+    CAMERAS_IDS : camera_ids.yaml
+
+PATHS: 
+    DATA_DIR : X:/GBS_(global_behavioral_standard)/GBS_activity_recordings/GBS_autotracks_front
+    REPO_ROOT_DIR : developing-exploration-behavior/
+    DASHBOARD_DIR: Processing/DevExDashboard/
+    DASHBOARD_DATA_DIR : data/
+    DASHBOARD_DOCS_DIR : docs/
+    DASHBOARD_IMAGES_DIR : images/
+    DASHBOARD_OUTPUTS_DIR : X:/GBS_(global_behavioral_standard)/GBS_activity_recordings/GBS_autotracks_front/
+    ISSUE_LINK : https://github.com/vincejstraub/developing-exploration-behavior/issues
+    
+DEFAULTS:
+    SKIP_DIRT_TRACKS : 'only show warning (default)'
+    SAVE_TREATMENT_METRICS : 'no'
+    FILTER_ARG : 'no'
+
+VARS:
+    LIBRATOOLS_MERGED_COLS:
+        - globalFRAME
+        - localFRAME
+        - MillisecsByFPS
+        - objectName
+        - valid
+        - id
+        - coordinateUnit
+        - x
+        - y
+        - rad
+        - deg
+        - xpx
+        - ypx
+        - time
+        - timeString
+        - timestamp
+        - MillisecsBetweenFRAMES
+        - chunk_segment  
+    LIBRATOOLS_PROCESSED_COLS: 
+        - globalFRAME
+        - localFRAME
+        - MillisecsByFPS
+        - objectName 
+        - valid
+        - id
+        - coordinateUnit
+        - x
+        - y
+        - rad
+        - deg
+        - xpx
+        - ypx
+        - time
+        - timeString
+        - timestamp
+        - MillisecsBetweenFRAMES
+        - chunk_segment
+        - stepLength
+        - heading
+        - turnAngle
+    OVERVIEW_TABLE1_NEW_COLS:
+        - Animal ID
+        - Tank ID
+        - Experimental group
+    OVERVIEW_TABLE1_DIC:
+        camera_id: int 
+        camera_num: int
+        experimental_group: str
+    TREATMENT_TABLE1_NEW_COLS: 
+        - Animal ID
+        - Tank ID
+        - Experimental group
+        - Tracking time (min)
+        - Data points (#)
+        - Data points removed (#)
+        - Total activity (cm)
+        - Mean activity (cm/unit time)
+        - Treatment time (min)
+    DIAGNOSTIC_TABLE1_NEW_COLS:
+        - Animal ID
+        - Tank ID
+        - Median activity (cm)
+        - Mean step length (cm)
+        - Max step length (cm)
+        - Step length var (cm^2)
+        - Step length s.d. (cm)
+        - Mean RTA (deg)
+        - RTA s.d. (deg)
+    DIAGNOSTIC_TABLE2_NEW_COLS:
+        - Animal ID
+        - Tank ID
+        - Source FPS
+        - Dropped frames (#)
+        - Detected spikes (#)
+        - Expected spikes (#)
+        - Incomplete rows (#)
+        - Missing x-coords (#)
+        - Missing y-coords (#)
+    TREATMENT_TABLE1_DIC : 
+        camera_id: int 
+        camera_num: int
+        experimental_group: str
+        total_tracking_time_mins: float
+        row_count: float
+        rows_removed_count: float
+        activity: float
+        mean_activity: float
+        treatment: float
+    DIAGNOSTIC_TABLE1_DIC : 
+        camera_id: int
+        camera_num: int
+        med_interval_activity: float
+        mean_step_len: float
+        max_step_len: float
+        step_len_var: float
+        step_len_std: float
+        mean_turning_angle: float
+        turning_angle_std: float
+    DIAGNOSTIC_TABLE2_DIC : 
+        camera_id: int
+        camera_num: int
+        source_fps: str
+        total_num_detected_spikes: int
+        num_expected_spikes: int
+        dropped_frames: int
+        total_nans_across_cols: int
+        x_nans: int
+        y_nans: int
