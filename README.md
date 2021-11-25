@@ -22,7 +22,7 @@ Install locally via `pip install -e . --user`.
 
 ## User Agreement
 
-By downloading DevExDashboard you agree with the following points: DevExDashboard is provided without any warranty or conditions of any kind. We assume no responsibility for errors or omissions in the results and interpretations following from application of DevExDashboard.
+By downloading DevEx you agree with the following points: DevEx is provided without any warranty or conditions of any kind. We assume no responsibility for errors or omissions in the results and interpretations following from application of DevEx.
 
 ## Maintenance
 
