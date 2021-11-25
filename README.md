@@ -26,7 +26,7 @@ By downloading DevExDashboard you agree with the following points: DevExDashboar
 
 ## Maintenance
 
-* [Vince J. Straub](https://github.com/vincejstraub)  
+* [Vincent J. Straub](https://github.com/vincejstraub)  
 
 ## Requirements
 
