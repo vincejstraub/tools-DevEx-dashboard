@@ -4,6 +4,8 @@
 
 DevEx is a web-based dashboard to monitor daily tracking activity of animal movement trajectories. It can be used with any x, y, times CSV files but is specifically built for data collected using the [loopbio motif video recording system](http://loopbio.com/recording/) and labelled with [BioTracker](https://github.com/BioroboticsLab/biotracker_core), a computer vision framework for visual animal tracking. It relies on [libratools](https://github.com/vincejstraub/tools-libratools) for processing trajectories. 
 
+![alt text](https://github.com/vincejstraub/tools-DevEx-dashboard/blob/main/docs/visual.png)
+
 It serves two main functions: 
 
 1. It provides a quick read-out of movement metrics and tracking errors detected in recordings, thereby enabling a reset of camera settings, if necessary. 
