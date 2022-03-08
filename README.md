@@ -2,7 +2,7 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-DevEx is a web-based dashboard to monitor daily tracking activity of animal movement trajectories. It can be used with any x, y, times CSV files but is specifically built for data collected using the [loopbio motif video recording system](http://loopbio.com/recording/) and labelled with [BioTracker](https://github.com/BioroboticsLab/biotracker_core), a computer vision framework for visual animal tracking. It relies on [libratools](https://github.com/vincejstraub/tools-libratools) for processing trajectories. 
+DevEx is a web-based dashboard to monitor daily tracking activity of animal movement trajectories. It can be used with any x, y, times CSV files but is specifically built for data collected using the [loopbio motif video recording system](http://loopbio.com/recording/) and labeled with [BioTracker](https://github.com/BioroboticsLab/biotracker_core), a computer vision framework for visual animal tracking. It relies on [libratools](https://github.com/vincejstraub/tools-libratools) for processing trajectories. 
 
 ![alt text](https://github.com/vincejstraub/tools-DevEx-dashboard/blob/main/docs/dashboard-visual.png)
 
