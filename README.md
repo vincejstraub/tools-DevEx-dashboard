@@ -16,7 +16,11 @@ For testing the dashboard, a number of sample tracks can currently be  read from
 
 ## Installation and Setup
 
-Install locally via `pip install -e . --user`. 
+Install locally via:
+
+```bash
+pip install git+https://github.com/vincejstraub/tools-DevEx-dashboard.git
+```
 
 ## Usage
 
