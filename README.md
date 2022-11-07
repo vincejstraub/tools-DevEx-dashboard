@@ -24,7 +24,9 @@ pip install git+https://github.com/vincejstraub/tools-DevEx-dashboard.git
 
 ## Usage
 
-`# streamlit run app.py`
+```bash
+$ streamlit run app.py`
+```
 
 ## User Agreement
 
@@ -36,9 +38,7 @@ By downloading DevEx you agree with the following points: DevEx is provided with
 
 ## Requirements
 
-Requirements are listed in the file :
-
-* `requirements.txt`
+Requirements are listed in the `requirements.txt` file.
 
 To install dependencies do the following:
 
